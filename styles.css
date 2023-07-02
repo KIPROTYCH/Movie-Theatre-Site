@@ -1,112 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: teal;
-}
-
-/* 
-.container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
+/* .filmssection {
+  flex: 1;
+  background-color: lightblue;
   padding: 20px;
 }
 
-.films-section {
-  flex-basis: 35%;
-  padding: 20px;
-  background-color: #333333;
-  color: #ffffff;
-  cursor: pointer;
-
+.filmssection h2 {
+  margin-top: 0;
 }
 
-.details-section {
-  flex-basis: 65%;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.62);
-  color: white;
-}
-
-h2 {
-  text-align: center;
-  margin: 20px 0;
-  color: orange;
-}
-
-ul#films {
+.filmssection ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.film-item {
-  display: flex;
-  align-items: center;
+.filmssection li {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease;
 }
 
-.film-item:hover {
-  background-color: #f1f1f1;
-}
-
-.film-item img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  object-position: center;
-  margin-right: 10px;
-}
-
-.movie-details {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.movie-details h3 {
-  margin: 0;
-}
-
-.movie-details p {
-  margin-bottom: 10px;
-}
-
-.movie-details img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center;
-  margin-bottom: 20px;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.button-container button {
-  padding: 10px 20px;
-  background-color: orange;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
-  margin: 0 10px;
-}
-
-.button-container button:hover {
-  background-color: orangered;
+.filmssection li:hover {
+  background-color: lightgray;
 } */
+.availablefilms {
+  display: flex;
+}
+
+.filmssection {
+  flex: 1 0 40%;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.detailssection {
+  flex: 1 0 50%;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+.movieinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movieinfo img {
+  max-width: 200px;
+}
+
+.filmssection h2 {
+  margin-top: 0;
+}
+
+.filmssection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filmssection li {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.filmssection li:hover {
+  background-color: lightgray;
+}

@@ -9,23 +9,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>FLATIRON MOVIE THEATRE</h1>
-        <div class="films-section">
+    <div class="availablefilms">
+        <div class="filmssection">
             <h2>Available Films</h2>
-            <ul id="filmslist"></ul>
+            <ul id="films"></ul>
         </div>
-        <div class="details-section">
+        <div class="detailssection">
             <h2>Movie Details</h2>
-            <div class="moviedetails">
+            <div class="movieinfo">
                 <h3 id="movietitle"></h3>
-                <p><strong>Runtime:</strong> <span id="runtime"></span> minutes</p>
-                <p><strong>Showtime:</strong> <span id="showtime"></span></p>
-                <p><strong>Available Tickets:</strong> <span id="availabletickets"></span></p>
-                <img id="movieposter" src="" alt="Movie Poster">
-                <div class="button-container">
-                    <button id="buyticket">Buy Ticket</button>
-                    <button id="deletefilm">Delete Film</button>
+                <p>Runtime: <span id="runtime"></span> minutes</p>
+                <p>Showtime: <span id="showtime"></span></p>
+                <p>Available Tickets: <span id="availabletickets"></span></p>
+                <img id="poster" src="" alt="Film Poster">
+                <div class="buttonsection">
+                    <button id="ticketbtn">Buy Ticket</button>
+                    <button id="deletebtn">Delete Film</button>
                 </div>
             </div>
         </div>
